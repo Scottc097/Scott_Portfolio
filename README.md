@@ -3,7 +3,7 @@ Data Analyst Portfolio
 #[Project 1: Bike Analysis Company: Project Overview] (https://github.com/Scottc097/Scottc097.github.io/blob/main/test.py)
 Data Cleaning Process
 
-'# replace missing values with "N/A"'
+`# replace missing values with "N/A"
 'df.fillna("N/A", inplace=True)'
 
 '# replace blank entries with NaN values'
@@ -24,7 +24,7 @@ df['ended_at'] = pd.to_datetime(df['ended_at'])
 df['start_lat'] = df['start_lat'].astype(float)
 df['start_lng'] = df['start_lng'].astype(float)
 df['end_lat'] = df['end_lat'].replace('N/A', np.nan).astype(float)
-df['end_lng'] = df['end_lng'].replace('N/A', np.nan).astype(float)'
+df['end_lng'] = df['end_lng'].replace('N/A', np.nan).astype(float)`
 
 *
 *
