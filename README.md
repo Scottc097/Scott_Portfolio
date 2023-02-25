@@ -4,10 +4,10 @@ Data Analyst Portfolio
 Data Cleaning Process
 
 `# replace missing values with "N/A"`
-'df.fillna("N/A", inplace=True)'
+`'df.fillna("N/A", inplace=True)'`
 
-'# replace blank entries with NaN values'
-'df = df.replace('', pd.NA)'
+`'# replace blank entries with NaN values'`
+`df = df.replace('', pd.NA)`
 
 # check for duplicates and remove them
 df.drop_duplicates(inplace=True)
