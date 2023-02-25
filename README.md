@@ -3,11 +3,11 @@ Data Analyst Portfolio
 #[Project 1: Bike Analysis Company: Project Overview] (https://github.com/Scottc097/Scottc097.github.io/blob/main/test.py)
 Data Cleaning Process
 
-'# replace missing values with "N/A"
-df.fillna("N/A", inplace=True)
+'# replace missing values with "N/A"'
+'df.fillna("N/A", inplace=True)'
 
-# replace blank entries with NaN values
-df = df.replace('', pd.NA)
+'# replace blank entries with NaN values'
+'df = df.replace('', pd.NA)'
 
 # check for duplicates and remove them
 df.drop_duplicates(inplace=True)
